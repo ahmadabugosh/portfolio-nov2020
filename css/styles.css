@@ -251,6 +251,9 @@ textarea {
 button,
 input {
   overflow: visible;
+  width: 250px;
+  height: 40px;
+  margin: 2%;
 }
 
 button,
@@ -10111,4 +10114,12 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+  margin: 1%;
+  height: 150px;
+  width: 600px;
 }
